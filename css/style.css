@@ -9,11 +9,13 @@
 :root {
     --dis-primary-color: #3161e0;
     --dis-secondary-color: #23272a;
+    --dis-text-color: #6f86d5;
 }
 
 img {
     max-width: 100%;
 }
+
 /* end region common */
 
 
@@ -93,8 +95,9 @@ img {
 .mac {
     border-radius: 500px;
     width: 200px;
-    background-color: white;
+    background-color: var(--dis-text-color);
     padding: 0.5rem;
+    text-align: center;
 }
 
 .browser {
@@ -137,32 +140,50 @@ img {
 }
 
 .block-7 {
-
     width: 55%;
-    background-color: salmon;
 }
 
 .block-8 {
 
     width: 40%;
-    background-color: aqua;
 }
 
 .col-3 {
     width: 25%;
-    background-color: rosybrown;
 }
+
 .tech {
     padding: 1.5rem;
     color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: var(--dis-secondary-color);   
+    color: var(--dis-secondary-color);
 }
+
 .d-mac {
     display: flex;
     justify-content: center;
 }
 
+.bg-secondary-color {
+    background-color: var(--dis-secondary-color);
+}
+
+.text {
+    color: var(--dis-text-color);
+}
+.row-footer {
+    display: flex;
+    color: white;
+}
+.stars {
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    padding: 1rem;  
+}
+.row-logo {
+    display: flex;
+    justify-content: space-between;
+}
 /* end region utility */
