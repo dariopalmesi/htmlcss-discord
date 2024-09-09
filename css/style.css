@@ -1,0 +1,130 @@
+/* region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dis-primary-color: #3161e0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* #region debug*/
+#debug * {
+    border: 1px dashed;
+}
+
+
+
+#debug .container-sm {
+    height: 200px;
+}
+
+#debug .w40 {
+    height: 100px;
+    background-color: lightblue;
+}
+
+#debug .w60 {
+    height: 100px;
+    background-color: lightcoral;
+}
+
+#debug .block-7 {
+    height: 100px;
+}
+
+
+
+
+
+/* #region utility */
+.bg-primary {
+    background-color: var(--dis-primary-color);
+}
+
+.bg-blu {
+    background-color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.col {
+    width: 25%;
+    color: white;
+    display: flex;
+}
+
+
+.col-2 {
+    width: 50%;
+    color: white;
+}
+
+.acces{
+    width: 25%;
+    border-radius: 500px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    padding-top: 0.5rem;
+}
+
+
+
+
+.w40 {
+    width: 40%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+
+
+.bg-ltg {
+    background-color: lightgrey;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.block-7 {
+
+    width: 55%;
+    background-color: salmon;
+}
+
+.block-8 {
+
+    width: 40%;
+    background-color: aqua;
+}
+
+.bg-dkg {
+    background-color: rgb(43, 41, 41);
+}
+
+.col-3 {
+    width: 25%;
+    background-color: rosybrown;
+}
