@@ -14,6 +14,7 @@
 img {
     max-width: 100%;
 }
+/* end region common */
 
 
 
@@ -42,7 +43,7 @@ img {
     height: 100px;
 }
 
-
+/* end region debug */
 
 
 
@@ -55,8 +56,8 @@ img {
     background-image: url(../img/jumbo.png);
     height: 500px;
     background-position: center;
-    padding: 10rem;
-
+    background-size: cover;
+    padding: 2rem;
 }
 
 .container {
@@ -151,3 +152,17 @@ img {
     width: 25%;
     background-color: rosybrown;
 }
+.tech {
+    padding: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--dis-secondary-color);   
+}
+.d-mac {
+    display: flex;
+    justify-content: center;
+}
+
+/* end region utility */
