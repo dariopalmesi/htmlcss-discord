@@ -28,12 +28,12 @@ img {
     height: 200px;
 }
 
-#debug .w40 {
+#debug .w-40 {
     height: 100px;
     background-color: lightblue;
 }
 
-#debug .w60 {
+#debug .w-60 {
     height: 100px;
     background-color: lightcoral;
 }
@@ -100,16 +100,20 @@ img {
     padding: 0.5rem;
 
 }
+
 .d-flex {
     display: flex;
     justify-content: space-around;
 }
 
-.w40 {
+.w-40 {
     width: 40%;
+    text-align: center;
+    padding-top: 1.5rem;
+    color: var(--dis-secondary-color);
 }
 
-.w60 {
+.w-60 {
     width: 60%;
 }
 
@@ -137,10 +141,6 @@ img {
 
     width: 40%;
     background-color: aqua;
-}
-
-.bg-dkg {
-    background-color: rgb(43, 41, 41);
 }
 
 .col-3 {
