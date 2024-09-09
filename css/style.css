@@ -53,6 +53,10 @@ img {
 
 .bg-blu {
     background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-position: center;
+    padding: 10rem;
+
 }
 
 .container {
@@ -120,7 +124,7 @@ img {
 
 
 .bg-ltg {
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 .row-2 {
