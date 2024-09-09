@@ -8,6 +8,7 @@
 
 :root {
     --dis-primary-color: #3161e0;
+    --dis-secondary-color: #23272a;
 }
 
 img {
@@ -51,7 +52,7 @@ img {
 }
 
 .bg-blu {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
 }
 
 .container {
@@ -77,15 +78,32 @@ img {
     color: white;
 }
 
-.acces{
+.acces {
     width: 25%;
     border-radius: 500px;
     width: 100px;
     background-color: white;
 }
 
+.mac {
+    border-radius: 500px;
+    width: 200px;
+    background-color: white;
+    padding: 0.5rem;
+}
 
+.browser {
+    border-radius: 500px;
+    width: 200px;
+    background-color: var(--dis-secondary-color);
+    color: white;
+    padding: 0.5rem;
 
+}
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
 
 .w40 {
     width: 40%;
