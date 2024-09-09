@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 :root {
@@ -80,9 +81,7 @@ img {
     width: 25%;
     border-radius: 500px;
     width: 100px;
-    text-align: center;
     background-color: white;
-    padding-top: 0.5rem;
 }
 
 
@@ -103,9 +102,11 @@ img {
 }
 
 .row-2 {
-    display: flex;
-    justify-content: center;
     padding: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .block-7 {
